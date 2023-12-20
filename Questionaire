@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+
+        // Questions for participants
+        System.out.println("What's your favorite video game?");
+        String Game = scanner.nextLine();
+        System.out.println("How old are you?");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("What is your favorite food?");
+        String food = scanner.nextLine();
+
+        // Answer outputs for participant's inputs
+        System.out.println("Your favorite video game is "+Game);
+        System.out.println("You are "+ age +" years old!");
+        System.out.println("Your favorite food is "+ food);
+
+    }
+}
